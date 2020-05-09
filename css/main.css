@@ -1,0 +1,32 @@
+#instruction-card {
+    display: flex;
+    padding: 2rem;
+    font-family: monospace;
+}
+
+#dir {
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgba(213, 172, 241, 0.87);
+}
+
+#instructionSet {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 3rem 0 3rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.instruction-prefix {
+    padding-bottom: 1.5rem;
+}
+
+h3 {
+    color: rgba(213, 172, 241, 0.87);
+}
+
+.btn {
+    margin-top: 2rem;
+}
