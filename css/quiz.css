@@ -1,0 +1,65 @@
+ .option-container {
+     display: flex;
+     margin-bottom: 0.5rem;
+     width: 100%;
+     font-size: 1.8rem;
+     border: 0.1rem solid rgb(241, 183, 181);
+     background-color: rgba(213, 172, 241, 0.87);
+ }
+
+.option-container:hover {
+    cursor: pointer;
+    text-shadow: 0 0.4rem 1.4rem 0 rgb(48, 6, 68);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+.option-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: rgb(241, 183, 181);
+}
+
+.option-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    color: white;
+    background-color: #28a745;
+}
+
+.incorrect {
+    color: white;
+    background-color: #dc3545;
+}
+
+/*QSC - Question Score Counter*/
+
+#qsc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qsc-prefix {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.qsc-main-text {
+    text-align: center ;
+    margin-top: 0rem;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid rgb(241, 183, 181);
+    margin-top: 2rem;
+}
+
+#progressBarFull {
+    height: 3.4rem;
+    background-color: rgb(241, 183, 181);
+    width: 0%;
+}

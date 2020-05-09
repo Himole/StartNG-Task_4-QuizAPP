@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz</title>
+    <link rel="stylesheet" href="/css/HomePage.css">
+    <link rel="stylesheet" href="/css/quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz" class="justify-center flex-column">
+            <div id="qsc">
+                <div id="qsc-item">
+                    <p id="questionCounter" class="qsc-prefix">
+                        Question
+                    </p> 
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div id="qsc-item">
+                    <p class="qsc-prefix">
+                        Score
+                    </p> 
+                    <h1 class="qsc-main-text" id="scoreCounter">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h2 id="question">What part of the brain stem 
+                regulates your heartbeat?
+            </h2>
+            <div class="option-container">
+                <p class="option-prefix">A</p>
+                <p class="option-text" data-number="1">Pons</p>
+            </div>
+            <div class="option-container">
+                <p class="option-prefix">B</p>
+                <p class="option-text" data-number="2">Medulla</p>
+            </div>
+            <div class="option-container">
+                <p class="option-prefix">C</p>
+                <p class="option-text" data-number="3">Hypothalamus</p>
+            </div>
+            <div class="option-container">
+                <p class="option-prefix">D</p>
+                <p class="option-text" data-number="4">Thalamus</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/JavaScript/quiz.js"></script>
+</body>
+</html>

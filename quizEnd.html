@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz</title>
+    <link rel="stylesheet" href="/css/HomePage.css">
+    <link rel="stylesheet" href="/css/quizEnd.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h2 id="yourScore">Your Score</h2>
+            <h1 id="finalScore"></h1> 
+            <form action="" autocomplete="off">
+                <input type="text" id="username" style="text-transform: capitalize;"  placeholder="username">
+                <button type="submit" class="btn" disabled
+                id="saveScoreBtn" onclick="saveHighScore(event)">
+                    Save
+                </button>
+            </form>
+            <a class="btn" href="quiz.html">Play Again</a>
+            <a class="btn" href="HomePage.html">Go Home</a>
+        </div>    
+    </div>
+    
+    <script src="/JavaScript/quizEnd.js"></script>
+</body>
+</html>
